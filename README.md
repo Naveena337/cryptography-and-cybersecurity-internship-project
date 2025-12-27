@@ -1,49 +1,86 @@
-# Cybersecurity Internship Mini Project
+# Cryptography and Cybersecurity Internship Project
 
 ## 📖 Project Overview
-This project is a **Cybersecurity Mini Project developed during an internship training program**.
-The objective of this project is to understand fundamental cybersecurity concepts and implement basic security mechanisms to protect data and systems.
+This project was developed as part of a cybersecurity internship and focuses on understanding
+cryptographic techniques used to protect information.
 
-The project focuses on security awareness, encryption techniques, password safety, and threat analysis.
-
----
-
-## 🎓 Project Type
-- Internship Mini Project  
-- Training-Based Cybersecurity Project  
-- Academic Learning Project  
+The project includes implementations and documentation of classical ciphers, symmetric-key
+cryptography, and public-key cryptography for educational purposes.
 
 ---
 
-## 🔐 Cybersecurity Concepts Covered
-- Cybersecurity fundamentals  
-- Information security principles  
-- Password security  
-- Encryption and decryption  
-- Common cyber threats and attacks  
-- Secure coding awareness  
+## 🎓 Project Category
+- Cybersecurity Internship Project
+- Cryptography Learning Project
+- Academic / Training-Based Project
 
 ---
 
-## 🙋 My Role & Contribution
-- Studied cybersecurity fundamentals and security threats  
-- Implemented basic encryption and decryption logic  
-- Developed password strength validation logic  
-- Analyzed common cyber threats and security risks  
-- Tested security behavior using sample inputs  
+## 🔐 Cryptographic Techniques Covered
+
+### Classical Cryptography
+- Substitution Ciphers
+- Transposition Ciphers
+- Monoalphabetic and Polyalphabetic Ciphers
+
+### Symmetric-Key Cryptography
+- Block Ciphers (Feistel Structure)
+- Stream Ciphers
+
+### Asymmetric-Key Cryptography
+- RSA Cryptosystem
+- Elliptic Curve Cryptography (ECC)
+
+---
+
+## 🧠 Implemented Ciphers
+- Caesar / Additive Cipher
+- Multiplicative Cipher
+- Affine Cipher
+- Keyword Cipher
+- Vigenère Cipher
+- Playfair Cipher
+- Rail Fence Cipher
+- Permutation Cipher
+- Hill Cipher
+- Feistel Cipher (Demo)
+- Stream Cipher (Demo)
+- RSA Cryptosystem
+- ECC (Conceptual Demo)
+
+---
+
+## 🙋 My Contribution
+- Studied cryptographic algorithms and security concepts
+- Implemented encryption and decryption logic for multiple ciphers
+- Documented cipher theory, formulas, and processes
+- Organized project modules for clarity and learning
+- Tested cipher implementations using sample inputs
 
 ---
 
 ## 🛠️ Technologies Used
-- Python  
-- Cybersecurity Concepts  
-- Encryption Techniques  
-- Git & GitHub  
+- Python
+- Cryptography Concepts
+- Git & GitHub
 
 ---
 
-## ⚙️ How to Run the Project
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/cybersecurity-internship-mini-project.git
+## ⚠️ Disclaimer
+All cipher implementations are for **educational and learning purposes only**.
+They are not intended for production-level security use.
 
+---
+
+## 🎯 Learning Outcomes
+- Strong understanding of cryptographic fundamentals
+- Difference between symmetric and asymmetric encryption
+- Practical exposure to encryption and decryption processes
+- Awareness of strengths and limitations of classical ciphers
+
+---
+
+## 🚀 Future Scope
+- Implementation of modern encryption algorithms
+- Performance comparison of cryptographic techniques
+- Integration with secure applications
