@@ -36,8 +36,6 @@ $$
 d \equiv e^{-1} \pmod{\phi(n)}
 $$
 
----
-
 ### Encryption
 
 Plaintext message ( M ) is encrypted as:
@@ -46,8 +44,6 @@ $$
 C = M^e \bmod n
 $$
 
----
-
 ### Decryption
 
 Ciphertext ( C ) is decrypted as:
@@ -55,8 +51,6 @@ Ciphertext ( C ) is decrypted as:
 $$
 M = C^d \bmod n
 $$
-
----
 
 ### Example
 
@@ -71,13 +65,9 @@ $$
   M = C^d \bmod n
   $$
 
----
-
 ## II. ElGamal Cryptosystem
 
 ElGamal is an asymmetric cryptosystem based on the **Discrete Logarithm Problem**.
-
----
 
 ### Key Generation
 
@@ -97,8 +87,6 @@ $$
 * **Public Key:** ( (p, g, y) )
 * **Private Key:** ( x )
 
----
-
 ### Encryption
 
 1. Choose random integer ( k )
@@ -116,8 +104,6 @@ $$
 
 * **Ciphertext:** ( (C_1, C_2) )
 
----
-
 ### Decryption
 
 Recover plaintext:
@@ -126,13 +112,9 @@ $$
 M = C_2 \cdot (C_1^x)^{-1} \bmod p
 $$
 
----
-
 ## III. Feistel Cipher Algorithm
 
 Feistel structure forms the basis of many block ciphers such as DES.
-
----
 
 ### Algorithm Steps
 
@@ -157,21 +139,15 @@ $$
 C = L_n | R_n
 $$
 
----
-
 ### Example
 
 * **Plaintext:** `"Hello"`
 * **Process:** Binary conversion → XOR with round keys → recombination
 * **Ciphertext:** `"E1!w("`
 
----
-
 ## IV. Substitution Cipher (Modular Arithmetic)
 
 Each letter is replaced by another letter using modular arithmetic.
-
----
 
 ### Letter Mapping
 
@@ -179,7 +155,6 @@ $$
 A = 0,; B = 1,; \dots,; Z = 25
 $$
 
----
 
 ### Encryption
 
@@ -187,15 +162,11 @@ $$
 E(x) = (x + k) \bmod 26
 $$
 
----
-
 ### Decryption
 
 $$
 D(x) = (x - k) \bmod 26
 $$
-
----
 
 ### Example
 
@@ -209,18 +180,11 @@ $$
 * ( m (12) + 4 = q (16) )
 
 **Ciphertext:**
-
-```
 M eq wxyhCmrk Hexe IrgvCtxmsr
-```
-
----
 
 ## V. Columnar Transposition Cipher
 
 A transposition cipher that rearranges characters based on a keyword.
-
----
 
 ### Algorithm Steps
 
@@ -228,9 +192,6 @@ A transposition cipher that rearranges characters based on a keyword.
 2. Write plaintext row-wise in a grid of ( n ) columns
 3. Number columns by alphabetical order of keyword
 4. Read columns in numerical order
-
----
-
 ### Example
 
 * **Plaintext:** `Geeks for Geeks`
@@ -249,13 +210,9 @@ A transposition cipher that rearranges characters based on a keyword.
 e__kefGsGsrekoe_
 ```
 
----
-
 ## VI. Permutation Cipher
 
 A block-based transposition cipher using a fixed permutation.
-
----
 
 ### Algorithm Steps
 
@@ -263,8 +220,6 @@ A block-based transposition cipher using a fixed permutation.
 2. Define permutation ( \pi )
 3. Rearrange characters per block
 4. Read across rows
-
----
 
 ### Example
 
@@ -287,8 +242,6 @@ PMCOREUT
 
 ECC is an asymmetric cryptosystem based on elliptic curve algebra.
 
----
-
 ### Elliptic Curve Equation
 
 $$
@@ -301,8 +254,6 @@ $$
 4a^3 + 27b^2 \neq 0
 $$
 
----
-
 ### Key Concepts
 
 * **Private Key:** ( d )
@@ -312,13 +263,9 @@ $$
   $$
 * **Security Basis:** Elliptic Curve Discrete Logarithm Problem (ECDLP)
 
----
-
 ## VIII. Stream Cipher Logic
 
 Stream ciphers encrypt data bit-by-bit using a pseudorandom keystream.
-
----
 
 ### Mathematical Model
 
@@ -333,8 +280,6 @@ $$
 $$
 C_i = P_i \oplus K_i
 $$
-
----
 
 ### Key Feature
 
