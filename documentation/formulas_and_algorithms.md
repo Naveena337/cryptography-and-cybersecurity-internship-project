@@ -247,7 +247,7 @@ ECC is an asymmetric cryptosystem based on elliptic curve algebra.
 $$
 y^2 = x^3 + ax + b
 $$
-
+<img width="3999" height="2203" alt="image" src="https://github.com/user-attachments/assets/3bb3507f-b3eb-4e18-8011-e49c02a2e55c" />
 Where:
 
 $$
@@ -258,9 +258,7 @@ $$
 
 * **Private Key:** ( d )
 * **Public Key:**
-  $$
-  Q = d \cdot G
-  $$
+ Q = d · G
 * **Security Basis:** Elliptic Curve Discrete Logarithm Problem (ECDLP)
 
 ## VIII. Stream Cipher Logic
