@@ -1,23 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-# ================================
 # Python files
-# ================================
 *.py text eol=lf
-
-# ================================
 # Markdown & documentation
-# ================================
 *.md text eol=lf
 *.txt text eol=lf
-
-# ================================
 # PDF and binary files
-# ================================
 *.pdf binary
 
-# ================================
 # Ignore OS-specific noise
-# ================================
 *.DS_Store -text
 Thumbs.db -text
