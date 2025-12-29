@@ -1,6 +1,5 @@
 This script contains the functional implementations of various encryption and decryption algorithms discussed in the project, ranging from transposition methods to bitwise stream operations.
-
-```python
+Code:
 import math
 import string
 
