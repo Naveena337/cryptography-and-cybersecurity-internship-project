@@ -244,9 +244,7 @@ ECC is an asymmetric cryptosystem based on elliptic curve algebra.
 
 ### Elliptic Curve Equation
 
-$$
-y^2 = x^3 + ax + b
-$$
+y² = x³ + ax + b
 <img width="3999" height="2203" alt="image" src="https://github.com/user-attachments/assets/3bb3507f-b3eb-4e18-8011-e49c02a2e55c" />
 Where:
 
